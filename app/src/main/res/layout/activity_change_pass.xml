@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="@drawable/lanidingpage_background"
+    android:orientation="vertical"
+    tools:context="com.assistdent.eliseomonjes.dental2.view.CuponDialog">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/cuponIcon"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:src="@drawable/signin_icon"
+            android:tint="@color/editTextColorWhite" />
+        <TextView
+            android:id="@+id/cuponTitle"
+            android:textColor="@color/editTextColorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/changePassword"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/cuponIcon"
+            android:layout_toEndOf="@+id/cuponIcon"/>
+
+        <ImageView
+            android:id="@+id/exitChange"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_alignParentEnd="true"
+            android:tint="@color/editTextColorWhite"
+            android:src="@drawable/ic_action_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.design.widget.TextInputLayout
+            android:hint="@string/hint_password"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:hint="@string/entryNew"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:hint="@string/hint_confirm_password"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:id="@+id/confirmPass"
+            android:paddingTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/RaisedButtonDark2"
+            android:text="@string/save"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+</LinearLayout>

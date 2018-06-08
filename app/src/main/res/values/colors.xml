@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#df0a7a</color>
+    <color name="colorPrimaryDark">#1b75b9</color>
+    <color name="colorAccent">#1b75b9</color>
+    <color name="editTextColorWhite">#FFFFFF</color>
+    <color name="editTextColorBlack">#000000</color>
+    <color name="backgroundtext_card">#53292929</color>
+    <color name="background_app">#fff</color>
+    <color name="colorbuttoncreate">#F48FB1</color>
+    <color name="color_leters">#757575</color>
+    <color name="color_toolbar">#f0f0f0</color>
+    <color name="colorlogoCeleste">#6cd3f8</color>
+</resources>
